@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -34,5 +34,198 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Product List */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  justify-content: center; /* Center products on smaller screens */
+}
+
+.category {
+  padding-top: 100px;
+}
+/* Product Card */
+.product-card img {
+  width: 80px; /* Reduced size for smaller screens */
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 10px;
+  width: calc(100px - 5px); /* Two items per row on smaller screens */
+  box-sizing: content-box;
+}
+
+/* Buttons */
+button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Free Delivery Banner */
+.free-delivery-banner {
+  text-align: center;
+  width: 100%;
+  color: #f4c803;
+  font-size: 1rem;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.sow {
+margin: 10px;
+}
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1c3c3d7;
+  font-size: 14px;
+}
+
+/* Shop Header */
+.shop-header {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  background-color: #143053;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo and Shop Details */
+.header-left {
+  display: flex;
+  align-items: center;
+  flex: 1; /* Adjust space allocation */
+}
+
+.shop-logo {
+  width: 50px; /* Reduced size for smaller screens */
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1px;
+}
+
+.shop-details h1 {
+  font-size: 9px;
+  color: #fefefe;
+}
+
+.shop-details h3,
+.shop-details p {
+  font-size: 6px;
+  color: #fefefe;
+}
+
+/* Contact Icons */
+.contact-icons {
+  display: flex;
+  gap: 7px;
+  margin-top: 2px;
+}
+
+.icon {
+  font-size: 8px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.icon:hover {
+  color: #007bff;
+}
+
+/* Cart Button */
+.cart-button {
+  position: relative;
+  background-color: #33d258;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 7px;
+  cursor: pointer;
+}
+
+.cart-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 9px;
+  position: absolute;
+  top: -10px;
+  right: -11px;
+}
+
+/* Ads Section */
+.ads-section {
+  background-color: #938342;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 72px;
+  border-bottom-right-radius: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+marquee {
+  font-weight: bolder;
+  color: #0b0501;
+}
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 768px) {
+  .shop-header {
+    flex-direction: column; /* Stack header sections vertically */
+    align-items: flex-start;
+  }
+  .header-right {
+    font-size: 9px;
+    color: #ddd;
+  }
+
+  .free-delivery-banner {
+    font-size: 0.4rem;
   }
 }
