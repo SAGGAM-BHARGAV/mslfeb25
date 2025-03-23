@@ -1,14 +1,14 @@
 {
-  "Ã Â°Â®Ã Â°Â¸Ã Â°Â¾Ã Â°Â²Ã Â°Â¾ (Masala)": [
+  "ÃÂ ÃÂ°ÃÂ®ÃÂ ÃÂ°ÃÂ¸ÃÂ ÃÂ°ÃÂ¾ÃÂ ÃÂ°ÃÂ²ÃÂ ÃÂ°ÃÂ¾ (Masala)": [
     {
       "id": 1,
-      "name": "Ã Â°ÂÃ Â±ÂÃ Â°Â²Ã Â°ÂÃ Â°Â° (Cumin Seeds)",
+      "name": "ÃÂ ÃÂ°ÃÂÃÂ ÃÂ±ÃÂÃÂ ÃÂ°ÃÂ²ÃÂ ÃÂ°ÃÂÃÂ ÃÂ°ÃÂ° (Cumin Seeds)",
       "price": 100,
       "image": "https://res.cloudinary.com/dj0u6aez5/image/upload/v1739518682/IMG-20250214-WA0018_q9162d.jpg"
     },
     {
       "id": 2,
-      "name": "Ã Â°ÂÃ Â°Â® (oma)",
+      "name": "ÃÂ ÃÂ°ÃÂÃÂ ÃÂ°ÃÂ® (oma)",
       "price": 100,
       "image": "https://res.cloudinary.com/dj0u6aez5/image/upload/v1739518680/IMG-20250214-WA0005_w1u2vz.jpg"
     },
@@ -28,6 +28,12 @@
       "id": 5,
       "name": "gjj",
       "price": 77,
+      "image": "https://res.cloudinary.com/dj0u6aez5/image/upload/v1741500907/IMG-20250309-WA0004_k40rij.jpg"
+    },
+    {
+      "id": 6,
+      "name": "ghj",
+      "price": 778,
       "image": "https://res.cloudinary.com/dj0u6aez5/image/upload/v1741500907/IMG-20250309-WA0004_k40rij.jpg"
     }
   ]
